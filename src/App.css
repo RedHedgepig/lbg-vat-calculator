@@ -1,11 +1,15 @@
 .field{
   width: 350px;
+  padding-top: 20px;
   padding-bottom: 20px;
   box-shadow: aliceblue;
 }
 
 .colour-border{
   border: 3px solid green;
+  border-style: double;
+  border-top-color: black;
+  border-top-style:double;
   padding: 10px;
 }
 
@@ -14,5 +18,11 @@ body {
 }
 
 .header{
-  padding: 30px;
+  padding: 50px;
+  text-align: center;
+  text-shadow: darkgrey;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: black;
+  text-decoration-thickness: 1px;
 }
